@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ThiredActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Drag N Drop Image"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/selected_image_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <LinearLayout-->
+<!--                android:id="@+id/layout"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/purple_500">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_1"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/layout1"-->
+<!--                android:layout_below="@+id/layout"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/purple_500"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_2"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/layout2"-->
+<!--                android:layout_below="@+id/layout1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/purple_500"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_3"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:id="@+id/layout3"-->
+<!--                android:layout_below="@+id/layout2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/purple_500"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_4"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/layout4"-->
+<!--                android:layout_below="@+id/layout3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/purple_500"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_5"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"/>-->
+<!--            </LinearLayout>-->
+<!--        </RelativeLayout>-->
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="NEXT"
+        android:textSize="20dp"/>
+</RelativeLayout>
+</layout>
